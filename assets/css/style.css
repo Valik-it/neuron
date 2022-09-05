@@ -1,0 +1,99 @@
+body{
+    background-color: #929ead;
+    color: aliceblue;
+    margin: 0;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font: 100px Arial, sans-serif;
+}
+html{
+
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*Основные цвета
+#9C9C9C
+#A0C9E6
+#016EFF
+#313942
+#2772FF
+#FF4037
+*/
+/*Main*/
+.Nav__panel {
+    background-color: #666666;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the links inside the navigation bar */
+.Nav__panel a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.Nav__panel a:hover {
+    background-color: #f0f0f0;
+    color: #3f3e53;
+}
+
+/* Add a color to the active/current link */
+.Nav__panel a.Main {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+.ing__compani{
+    float: right;
+}
+/*Header*/
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    text-align: center;
+
+    background:  url(../image/intro.jpg)center
+        no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.Header__Text{
+    font-family: sans-serif;
+    font-size: 250px;
+    color: #e9ebef;
+}
+/*Introductory_text*/
+.Introductory_text{
+    text-align: center;
+    font-size: 25;
+    color: #dde0ef;
+}
+.Introductory_text_DLS{
+    text-align: center;
+    color: #dde0ef;
+}
+.Preview{
+    background-color: #7a8398;
+}
